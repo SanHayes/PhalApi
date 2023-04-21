@@ -1,0 +1,374 @@
+2023-03-16 14:42:31|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'phalapi.phalapi_user' doesn't exist in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT id FROM ...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT id FROM ...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(1008): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(153): NotORM_Result->fetchAll()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(133): PhalApi\Model\DataModel->getDataMoreBy('username', 'ggabram', 1, 'id')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(212): PhalApi\Model\DataModel->getDataBy('username', 'ggabram',  [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678948951]
+2023-03-16 14:54:18|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT id FROM ...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT id FROM ...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(1008): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(153): NotORM_Result->fetchAll()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(133): PhalApi\Model\DataModel->getDataMoreBy('username', 'ggabram', 1, 'id')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(212): PhalApi\Model\DataModel->getDataBy('username', 'ggabram', 'id', false)
+#6 D:\ [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678949658]
+2023-03-16 14:59:43|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT id FROM ...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT id FROM ...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(1008): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(153): NotORM_Result->fetchAll()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(133): PhalApi\Model\DataModel->getDataMoreBy('username', 'ggabram', 1, 'id')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(212): PhalApi\Model\DataModel->getDataBy('username', 'ggabram', 'id', false)
+#6 D:\ [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678949983]
+2023-03-16 15:01:16|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT id FROM ...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT id FROM ...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(1008): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(153): NotORM_Result->fetchAll()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(133): PhalApi\Model\DataModel->getDataMoreBy('username', 'ggabram', 1, 'id')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(212): PhalApi\Model\DataModel->getDataBy('username', 'ggabram', 'id', false)
+#6 D:\ [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678950076]
+2023-03-16 15:05:11|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT id FROM ...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT id FROM ...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(1008): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(153): NotORM_Result->fetchAll()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(133): PhalApi\Model\DataModel->getDataMoreBy('username', 'ggabram', 1, 'id')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(212): PhalApi\Model\DataModel->getDataBy('username', 'ggabram', 'id', false)
+#6 D:\ [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678950311]
+2023-03-16 15:06:35|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'avatar' in 'field list' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('INSERT  INTO wp...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(398): NotORM_Result->query('INSERT  INTO wp...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(415): NotORM_Result->insert_multi(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(44): NotORM_Result->insert(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(272): PhalApi\Model\NotORMModel->insert(Array, NULL)
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(38): PhalApi\Model\DataModel->insert(Array)
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\User\User.ph [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678950395]
+2023-03-16 15:09:10|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'upd' in 'field list' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,upd,...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,upd,...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(1008): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(153): NotORM_Result->fetchAll()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(133): PhalApi\Model\DataModel->getDataMoreBy('username', 'ggabram1', 1, 'uid,upd,salt')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\DataModel.php(212): PhalApi\Model\DataModel->getDataBy('username', 'ggabram1', 'uid,u [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678950550]
+2023-03-16 15:12:05|ERROR|Error(1)：Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'phalapi.phalapi_user_session' doesn't exist in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('INSERT  INTO ph...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(398): NotORM_Result->query('INSERT  INTO ph...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(415): NotORM_Result->insert_multi(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(44): NotORM_Result->insert(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\UserSession.php(35): PhalApi\Model\NotORMModel->insert(Array, 1178)
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\User\User.php(81): App\Domain\User\UserSession->generate(1178)
+#6 [internal function]: App\Api\User\User->login( [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：237，时间：1678950725]
+2023-03-16 15:15:17|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'field list' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT id,usern...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT id,usern...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'id,username,nic...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'id,username,nic...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.ph in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678950917]
+2023-03-16 15:19:24|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951164]
+2023-03-16 15:20:19|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951219]
+2023-03-16 15:21:09|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951269]
+2023-03-16 15:22:39|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951359]
+2023-03-16 15:23:53|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951433]
+2023-03-16 15:24:52|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951492]
+2023-03-16 15:25:31|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951531]
+2023-03-16 15:25:41|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951541]
+2023-03-16 15:29:07|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951747]
+2023-03-16 15:30:50|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951850]
+2023-03-16 15:30:53|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678951853]
+2023-03-16 15:43:43|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678952623]
+2023-03-16 15:55:50|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1178)' at line 1 in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678953350]
+2023-03-16 15:57:35|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1178)' at line 1 in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678953455]
+2023-03-16 15:57:38|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1178)' at line 1 in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678953458]
+2023-03-16 16:06:41|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678954001]
+2023-03-16 16:10:33|ERROR|Error (1): Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause' in D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:237
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(237): PDO->prepare('SELECT uid,user...')
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(923): NotORM_Result->query('SELECT uid,user...', Array)
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(969): NotORM_Result->execute()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(33): NotORM_Result->fetch()
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\User\User.php(71): PhalApi\Model\NotORMModel->get(1178, 'uid,username,ni...')
+#5 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User.php(34): App\Domain\User\User->getUserInfo(1178, 'uid,username,ni...')
+#6 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Common\User\User. in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php, Line: 237, Time: 1678954233]
+2023-03-16 17:23:51|ERROR|Error(1)：Uncaught Error: Class 'App\Model\Pro\Pro' not found in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php:28
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(14, '*')
+#1 [internal function]: App\Api\Hello->getProinfo()
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#4 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php，行号：28，时间：1678958631]
+2023-03-16 17:24:46|ERROR|Error(1)：Uncaught Error: Class 'App\Model\Pro\Pro' not found in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php:28
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(14, '*')
+#1 [internal function]: App\Api\Hello->getProinfo()
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#4 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php，行号：28，时间：1678958686]
+2023-03-16 17:24:47|ERROR|Error(1)：Uncaught Error: Class 'App\Model\Pro\Pro' not found in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php:28
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(14, '*')
+#1 [internal function]: App\Api\Hello->getProinfo()
+#2 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#4 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php，行号：28，时间：1678958687]
+2023-03-16 17:35:22|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(14)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(14, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959322]
+2023-03-16 17:35:53|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1)
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959353]
+2023-03-16 17:36:21|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959381]
+2023-03-16 17:36:22|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959382]
+2023-03-16 17:37:59|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959479]
+2023-03-16 17:38:39|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959519]
+2023-03-16 17:38:41|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959521]
+2023-03-16 17:38:42|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959522]
+2023-03-16 17:38:43|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959523]
+2023-03-16 17:39:05|ERROR|Error(1)：Uncaught TypeError: Argument 1 passed to App\Model\Pro\Pro::getSnapshotByProIds() must be of the type array, integer given, called in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php on line 29 and defined in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php:18
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Domain\Pro\Pro.php(29): App\Model\Pro\Pro->getSnapshotByProIds(1)
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Api\Hello.php(27): App\Domain\Pro\Pro->getProInfo(1, '*')
+#2 [internal function]: App\Api\Hello->getProinfo()
+#3 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#4 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\index.php(9): PhalApi\PhalApi->response()
+#5 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\app\Model\Pro\Pro.php，行号：18，时间：1678959545]
+2023-03-16 17:46:54|ERROR|Error(256)：Call to undefined method NotORM_Result::Allfetch() [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\notorm\src\NotORM\Result.php，行号：734，时间：1678960014]
+2023-03-16 17:56:56|ERROR|Error (1): Uncaught Error: Class 'Portal\Common\Admin' not found in D:\phpStudy\PHPTutorial\WWW\Phalapi\config\di.php:46
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\init.php(19): include()
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\docs.php(34): require_once('D:\\phpStudy\\PHP...')
+#2 {main}
+  thrown in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\config\di.php, Line: 46, Time: 1678960616]
+2023-03-16 17:56:58|ERROR|Error (1): Uncaught Error: Class 'Portal\Common\Admin' not found in D:\phpStudy\PHPTutorial\WWW\Phalapi\config\di.php:46
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\init.php(19): include()
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\docs.php(34): require_once('D:\\phpStudy\\PHP...')
+#2 {main}
+  thrown in [File: D:\phpStudy\PHPTutorial\WWW\Phalapi\config\di.php, Line: 46, Time: 1678960618]
+2023-03-16 17:59:14|ERROR|Error(1)：Uncaught Error: Call to a member function check() on null in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\view\docs\api_desc_tpl.php:13
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Helper\ApiDesc.php(137): include()
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\docs.php(56): PhalApi\Helper\ApiDesc->render('D:\\phpStudy\\PHP...')
+#2 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\view\docs\api_desc_tpl.php，行号：13，时间：1678960754]
+2023-03-16 17:59:16|ERROR|Error(1)：Uncaught Error: Call to a member function check() on null in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\view\docs\api_desc_tpl.php:13
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Helper\ApiDesc.php(137): include()
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\docs.php(56): PhalApi\Helper\ApiDesc->render('D:\\phpStudy\\PHP...')
+#2 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\view\docs\api_desc_tpl.php，行号：13，时间：1678960756]
+2023-03-16 17:59:29|ERROR|Error(1)：Uncaught Error: Call to a member function check() on null in D:\phpStudy\PHPTutorial\WWW\Phalapi\src\view\docs\api_desc_tpl.php:13
+Stack trace:
+#0 D:\phpStudy\PHPTutorial\WWW\Phalapi\vendor\phalapi\kernal\src\Helper\ApiDesc.php(137): include()
+#1 D:\phpStudy\PHPTutorial\WWW\Phalapi\public\docs.php(56): PhalApi\Helper\ApiDesc->render('D:\\phpStudy\\PHP...')
+#2 {main}
+  thrown [文件：D:\phpStudy\PHPTutorial\WWW\Phalapi\src\view\docs\api_desc_tpl.php，行号：13，时间：1678960769]

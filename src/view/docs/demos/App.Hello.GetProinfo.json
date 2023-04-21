@@ -1,0 +1,25 @@
+{
+    "ret": 200,
+    "data": [
+        {
+            "pid": 14,
+            "ptitle": "黄金",
+            "cid": 5,
+            "otid": 0,
+            "isopen": 1,
+            "point": "6978",
+            "point_low": "0.001",
+            "point_top": "0.010",
+            "rands": "0.008",
+            "content": "",
+            "time": 1677682770,
+            "isdelete": 0,
+            "procode": "llg",
+            "add_data": 0,
+            "protime": "10,15,30",
+            "proscale": "0.008",
+            "img": "/public/uploads/20230203/pic_14.png"
+        }
+    ],
+    "msg": ""
+}

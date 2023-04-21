@@ -1,0 +1,14 @@
+{
+    "ret": 200,
+    "data": {
+        "profile": {
+            "id": 1,
+            "username": "dogstar",
+            "nickname": "",
+            "utime": 1585624262,
+            "portrait": "",
+            "utel": ""
+        }
+    },
+    "msg": ""
+}
