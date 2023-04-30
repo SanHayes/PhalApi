@@ -26,20 +26,20 @@ class User extends Api {
     
     // 列表返回的字段
     protected function getTableListSelect() {
-        return 'id,username,nickname,reg_time,avatar,mobile,sex,email';
+        return 'id,username,nickname,utime,utel';
     }
     
     // 取到列表数据后的加工处理
     protected function afterTableList($items) {
         foreach ($items as &$itRef) {
-            $itRef['reg_time'] = date('Y-m-d', $itRef['reg_time']);
+            $itRef['utime'] = date('Y-m-d', $itRef['utime']);
         }
         return $items;
     }
     
     // 获取单个数据时需要返回的字段
     protected function getDataSelect() {
-        return 'id,username,nickname,reg_time,avatar,mobile,sex,email';
+        return 'id,username,nickname,utime,utel';
     }
     
     // 更新时不允许更新的字段
